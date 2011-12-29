@@ -1,0 +1,7 @@
+*mcreate.js*
+
+mcreate is a js library intended for turning data into markup - I intend to move some of the functions out of utils.js into here and create a library around only creating elements in the dom quickly and easily - and crossbrowser-compliantly.
+
+I hope to not replicate functions out of things like jquery or prototype. I feel that those libraries are focused on dom manipulation more than element creation, and lack nice ways for transforming data into elements.  I do want to make the library standalone - but focused.  Meaning - it should require no other library, but solely focus on create elements or groups of elements (not for example finding them by class).
+
+I hope to build this as a part of jec006.com/notes/json.html
