@@ -27,7 +27,8 @@ window.mCreate = {
             if(tagName == 'input'){
               el.value = content;
             } else {
-              $(el).append(content);
+              //just put it as the inner html since we can't really figure out what it is
+              el.innerHTML = content;
             }
           }
           break;
